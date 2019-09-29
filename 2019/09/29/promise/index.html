@@ -5,15 +5,19 @@
   
 
   
-  <title>Archives: 2019/9 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Document                var p = new Promise(function(resolved, rejected){             rejected(20);         })         console.log(p);         p.then(null,function(err){">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2019/09/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/09/29/promise/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Document                var p = new Promise(function(resolved, rejected){             rejected(20);         })         console.log(p);         p.then(null,function(err){">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-09-29T09:12:39.800Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="Document                var p = new Promise(function(resolved, rejected){             rejected(20);         })         console.log(p);         p.then(null,function(err){">
   
     <link rel="alternate" href="/MyBlog/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,72 +64,67 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/MyBlog/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/MyBlog/2019/09/29/promise/" class="archive-article-date">
-  <time datetime="2019-09-29T09:12:24.300Z" itemprop="datePublished">Sep 29</time>
+        <section id="main"><article id="post-promise" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/MyBlog/2019/09/29/promise/" class="article-date">
+  <time datetime="2019-09-29T09:12:24.300Z" itemprop="datePublished">2019-09-29</time>
 </a>
-      
-    </header>
+    
   </div>
-</article>
-  
+  <div class="article-inner">
     
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/MyBlog/2019/09/29/firstblog/" class="archive-article-date">
-  <time datetime="2019-09-29T09:08:14.000Z" itemprop="datePublished">Sep 29</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/MyBlog/2019/09/29/firstblog/">firstblog</a>
-    </h1>
-  
+        <!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var p = new Promise(function(resolved, rejected){
+            rejected(20);
+        })
+        console.log(p);
+        p.then(null,function(err){
+            return err
+        }).then(function(yes){
+            console.log(yes);
+        },err => console.log(err))
+        
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/MyBlog/2019/09/29/hello-world/" class="archive-article-date">
-  <time datetime="2019-09-29T08:44:56.857Z" itemprop="datePublished">Sep 29</time>
-</a>
+        //1.pedding状态 => resolved / rejected;成功处理函数和失败处理函数，状态一旦确定则不可改变；
+        //2.promise对象可以调用then方法，then中有两个函数，分别为成功和失败的回调函数；
+        //3.then方法返回promise，继续使用then方法，产生链式调用；
+    </script>
+</body>
+</html>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/MyBlog/2019/09/29/hello-world/">Hello World</a>
-    </h1>
-  
-
-    </header>
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/09/29/promise/" data-id="ck14ro1po0001ngvfs32u48px" class="article-share-link">Share</a>
+      
+      
+    </footer>
   </div>
-</article>
+  
+    
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/MyBlog/2019/09/29/firstblog/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">firstblog</div>
+    </a>
   
+</nav>
 
+  
+</article>
 
 </section>
         
